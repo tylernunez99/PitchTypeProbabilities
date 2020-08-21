@@ -1,12 +1,11 @@
-# Penguins web app deployed on Heroku
+# Conditional Pitch Type Probabilities web app deployed on Heroku
 
-The deployed web app is live at https://dp-penguins.herokuapp.com/
+The deployed web app is live at https://pitch-type-prob.herokuapp.com/
 
-This web app predicts the species of penguins as a function of their input parameters (bill length, bill width, flipper length, body mass, sex and island).
+This web app displays a proability table of pitch types conditioned on count. Users provide team and pitcher to query.
 
 The web app was built in Python using the following libraries:
 * streamlit
 * pandas
 * numpy
-* scikit-learn
-* pickle
+* seaborn
