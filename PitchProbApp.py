@@ -4,6 +4,7 @@ import numpy as np
 import seaborn as sns
 
 st.title("Conditional Pitch Type Probabilities")
+st.write("Developed By: Tyler Nunez")
 st.header("1. Select Team")
 st.header("2. Select Pitcher")
 
@@ -42,4 +43,3 @@ cm = sns.light_palette("red", as_cmap=True)
 s = x.style.background_gradient(cmap=cm)
 
 st.table(s)
-st.write("Developed By: Tyler Nunez")
